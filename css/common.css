@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+input {
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+/* ======================================== */
+
+/* =================Task 1================= */
+ul#categories {
+  max-width: 440px;
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.96px;
+}
+
+ul#categories ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h2 {
+  margin-bottom: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.item {
+
+    padding: 16px;
+    width: 392px;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #f6f6fe;
+}
+
+.item li{
+  padding: 8px 16px;
+  width: 360px;
+
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;border-radius: 4px;
+  
+  color: #2e2f42;
+  border: 1px solid #808080;
+  
+}
+/* =================Task 2================= */ 
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 24px;
+  margin: 0 auto;
+  width: 1158px;
+
+  align-items: center;
+  list-style: none;
+}
+
+.gallery img {
+  width: 360px;
+}
+
+/* =================Task 3================= */
+
+#name-input {
+
+    width: 360px;
+    height: 40px;
+    margin-bottom: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+
+/* =================Task 4================= */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label { 
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+input {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+form button {
+  width: 86px;
+  height: 40px;
+  padding: 8px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  border-color: #4e75ff;
+  color: #fff;
+}
+
+/* =================Task 5================= */
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.change-color {
+  width: 148px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  background-color: #4e75ff;
+  border-color: #4e75ff;
+  color: #fff;
+
+}
+
+/* =================Task 6================= */
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 486px;
+    margin: auto;
+    padding: 32px;
+    background-color: #f6f6fe;
+}
+
+#controls input {  
+  width: 150px;
+  height: 40px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #808080;
+}
+
+[data-create] {
+  width: 120px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  background-color: #4e75ff;
+  border-color: transparent;
+  color: #fff;
+}
+
+[data-destroy] {
+  width: 120px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  background-color: #ff4e4e;
+  border-color: transparent;
+  color: #fff;
+}
+#boxes {
+  max-width: 1158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+
+}
+
